@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    scrollbar-color: blue lightgrey;
+}
+.your-calendar-class .rs__cell.rs__header {
+    z-index: 20;
+    position: relative; /* Asegúrate de agregar esto para que el z-index surta efecto */
+  }
